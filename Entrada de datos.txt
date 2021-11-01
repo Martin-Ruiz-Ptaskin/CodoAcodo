@@ -1,0 +1,20 @@
+run:
+Cual es tu edad?
+Cual es tu nombre?
+Cual es tu apellido?
+Cual es tu hobbie?
+Cual es tu IDE?
+Cual es tu SO favorito?
+20
+martin
+ruiz
+nada
+vs
+w
+El nombre es martin
+El apellido es ruiz
+La edad es 20
+El Hobbie es nada
+El nombre IDE favorito es vs
+El Sistema operaativo  es w
+BUILD SUCCESSFUL (total time: 19 seconds)

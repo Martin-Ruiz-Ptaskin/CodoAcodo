@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<body>
+    <style type="text/css">
+     body{
+        background-color: azure;
+    }
+.conteiner{
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tittle h2{
+    justify-self: end;
+    font-family: 'Open Sans', sans-serif;
+}
+.main_form{
+    width: 50%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: solid 1px;
+}   
+.main_form label{
+   margin-right: 15px;
+   font-family: 'Open Sans', sans-serif;
+
+}
+.cont-input{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-input input{
+    width: 50%;
+    height: 20px;
+
+}
+.options{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    justify-self: start;
+}
+.label{
+    width: 50%;
+    height: 100%;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+   font-family: 'Open Sans', sans-serif;
+   margin-left: 50px;
+   margin-top: 25px;
+color: blue;
+  
+
+}
+.ce{
+    display: flex;
+    justify-content: center;
+}
+/*-------------media query*--------------*/
+
+</style>
+<div class="conteiner">
+    <form class="main_form" id="port" >
+        <h2>Acceso al Sistema</h2>
+                <div class="cont-input"><div class="ce" style="width: 80%; text-align: left;"><label><i class="far fa-envelope"></i> DNI</label><input name="mail" style="margin-left:30px;" name="mail" ></div></div>
+
+            <div class="cont-input"><div class="ce" style="width: 80%;text-align: left;"><label ><i class="fas fa-user-lock"></i> Usuario</label><input style="margin-left:4px" name="pass" type="password" class="inpass" ></div></div>
+
+            <div class="cont-input"><div class="ce" style="width: 80%;text-align: left;"><label ><i class="fas fa-user-lock"></i> Clave</label><input class="ce" style="margin-left:16px"  name="pass" type="password" class="inpass" ></div></div>
+
+            <div class="cont-input"><div class="ce" style="width: 80%;text-align: left;"><label ><i class="fas fa-user-lock"></i> Password</label><input style="margin-left:-14px"  name="pass" type="password" class="inpass" ></div></div>
+            <button style="width: 100px ;">ingresar</button>
+            
+            </form>
+            </div>
+
+</body>
+</html>
